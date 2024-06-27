@@ -1,2 +1,6 @@
 def solution(strArr):
-    return [s for s in strArr if "ad" not in s]
+    result = []
+    for s in strArr:
+        if "ad" not in s:
+            result.append(s)
+    return result
