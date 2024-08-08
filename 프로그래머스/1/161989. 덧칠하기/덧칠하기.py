@@ -6,5 +6,5 @@ def solution(n, m, section):
         if(i > paint):
             paint = i + m - 1
             answer += 1
-    
+            
     return answer
